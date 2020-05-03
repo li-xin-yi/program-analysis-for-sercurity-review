@@ -39,6 +39,7 @@
 
 ## Miscellaneous
 
-- [Fuzzing](https://en.wikipedia.org/wiki/Fuzzing)
+- [ ] [Fuzzing](https://en.wikipedia.org/wiki/Fuzzing)
 - [ ] [Bouncer: Securing Software by Blocking Bad Input](https://dl.acm.org/doi/pdf/10.1145/1323293.1294274): *Symbolic Execution \& static analysis*, Old, but important. mentioned in [Using Safety Properties to Generate Vulnerability Patches (SP 19)](https://www.computer.org/csdl/proceedings-article/sp/2019/666000b174/19skgcZPlJe)
 - [ ] [**Unacceptable Behavior: Robust PDF Malware Detection Using Abstract Interpretation**](https://dl.acm.org/doi/10.1145/3338504.3357341): *abstract interprete/static analysis* Interesting, Accepted in [PLAS 2019](https://www.andrew.cmu.edu/user/pmardzie/plas2019/), which is Co-located with ACM CCS 2019.
+- [ ] [A Recursive Strategy for Symbolic Execution to Find Exploits in Hardware Designs](https://dl.acm.org/doi/abs/10.1145/3219763.3219764): *symbolic execution*, Accepted in FMS 2018 (a workshop hold by PLDI 2018)
