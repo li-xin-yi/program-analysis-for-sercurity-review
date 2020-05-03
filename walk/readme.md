@@ -33,7 +33,7 @@ Hand-write FSM:
 
 ![](./original_fsm.jpg)
 
-## Non-recursive Pseudo-Code
+## Non-recursive DFS Pseudo-Code
 
 [`simplatar.c`](./simpletar.c) is listed in the paper [Dataflow Anomaly Detection](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.80.6279&rep=rep1&type=pdf):
 
@@ -65,3 +65,37 @@ int main(int argc, char **argv){
 Its FSM given by the paper:
 
 ![](./fsm.png)
+
+## Non-recursive BFS Python Code
+
+Write a simple Python program [`traversal.py`](./traversal.py) that runs properly:
+
+```python
+import os
+from queue import Queue
+
+path = "../"  # source folder
+
+q = Queue()
+q.put(path)
+
+while not q.empty():
+    p = q.get()
+    p_list = os.listdir(p)
+    for i in p_list:
+        temp_p = os.path.join(p, i)
+        if os.path.isdir(temp_p):
+            q.put(temp_p)
+            continue
+        # do something
+        print(temp_p)
+```
+
+The FSM drawn by hand:
+
+![](./BFS_fsm.jpg)
+
+## Miscellaneous
+
+- [Walk a directory/Recursively](https://rosettacode.org/wiki/Walk_a_directory/Recursively)
+- [Walk a directory/Non-recursively](https://rosettacode.org/wiki/Walk_a_directory/Non-recursively)
