@@ -3,7 +3,7 @@ title: Static Analysis, Dynamic Analysis and Symbolic Execution Techniques Appli
 subtitle: Introduction \& Case Study
 author: Xinyi Li
 date: \today{}
-themem: default
+theme: default
 colortheme: seagull
 secnumdepth: 3
 section-titles: false
