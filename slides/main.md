@@ -5,24 +5,37 @@ author: Xinyi Li
 date: \today{}
 themem: default
 colortheme: seagull
-toc: true
-toc-depth: 2
-secnumdepth: 1
+secnumdepth: 3
 section-titles: false
+toc: true
 biblatex: true
 bibliography: ref.bib
 navigation: horizontal
 toc-title: Overview
-listings: true
 ---
 
 # Static Analysis
 
-## Case 1 
+## Case 1: Detect PDF Malware
 
-### Example
+### Case 1: Malicious `JavaScript` PDF Extension
 
 sample \footfullcite{jordan2019unacceptable}
+
+### Code {.fragile}
+
+```python
+while not q.empty():
+    p = q.get()
+    p_list = os.listdir(p)
+    for i in p_list:
+        temp_p = os.path.join(p, i)
+        if os.path.isdir(temp_p):
+            q.put(temp_p)
+            continue
+        # do something
+        print(temp_p)
+```
 
 # Dynamic Analysis
 

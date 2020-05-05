@@ -401,3 +401,6 @@ fabric.properties
 .idea/*
 
 slides/slides.tex
+slides/handout.tex
+
+*.out.ps

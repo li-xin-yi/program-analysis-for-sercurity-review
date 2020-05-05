@@ -433,7 +433,7 @@ $if(beamer)$
 $if(toc-title)$
   \frametitle{$toc-title$}
 $endif$
-  \tableofcontents[hideallsubsections]
+  \tableofcontents
 \end{frame}
 $else$
 {

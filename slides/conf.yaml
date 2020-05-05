@@ -1,0 +1,6 @@
+template: src/default
+listings: true
+standalone: true
+toc-depth: 3
+include-in-header: 
+  - src/code_style.tex

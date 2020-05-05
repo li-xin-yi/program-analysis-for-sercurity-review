@@ -15,7 +15,36 @@ Applications on Security
 
 ## Build
 
+All slides are directly built based on [main.md](./main.md). If you want to modify the content in the slides, just edit this file.
+
+To generate [slides](./slides.pdf) for presentation:
+
 ```
-$pandoc -t beamer --template=default -s -o slides.tex main.md
-$latexmk slides.tex
+make slides
 ```
+
+To generate [handout](./handout.pdf) for reading:
+
+```
+make handout
+```
+
+To generate both of them together:
+
+```
+make
+```
+
+Remove temp files:
+
+```
+make clean
+```
+
+## Settings:
+
+The styles of documents are controlled by those configuration files:
+
+- [`src/code_style.tex`](./src/code_style.tex): *Code block highlight style configuration*
+- [`src/default.beamer`](./src/default.beamer): *beamer template*
+- [`conf.yaml`](./conf.yaml): *build options*
