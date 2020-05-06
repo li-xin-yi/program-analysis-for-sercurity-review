@@ -44,11 +44,9 @@ toc-title: Overview
 
 . . .
 
-::: {.block}
 #### Rice's theorem \footfullcite{rice1953classes}
 
 All interesting questions about the behavior (*i.e. non-trivial properties* ) of programs (written in \gray{Turing-complete programming languages})  are **undecidable**. 
-:::
 
 
 
@@ -56,7 +54,18 @@ All interesting questions about the behavior (*i.e. non-trivial properties* ) of
 
 ## Case 1: Detect PDF Malware
 
-### Case 1: Malicious `JavaScript` PDF Extension \footfullcite{jordan2019unacceptable}
+### `SAFE-PDF`\footfullcite{jordan2019unacceptable}: Detect Malicious `Javascript` in PDFs
+
+\framesubtitle{PLAS 2019 / Oracle / University of Sydney}
+
+`JavaScript` programs embedded in PDFs implement some **advanced** features:
+
+  1. control embedded multimedia objects
+  2. interact with the file system or network
+
+However, it may be utilized for **malicious** intentions.
+
+
 
 ### Code
 
