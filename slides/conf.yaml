@@ -4,3 +4,4 @@ standalone: true
 toc-depth: 3
 include-in-header: 
   - src/code_style.tex
+  - src/macro.tex

@@ -41,10 +41,11 @@ Remove temp files:
 make clean
 ```
 
-## Settings:
+## Settings
 
 The styles of documents are controlled by those configuration files:
 
-- [`src/code_style.tex`](./src/code_style.tex): *Code block highlight style configuration*
+- [`src/code_style.tex`](./src/code_style.tex): *code block highlight style*
 - [`src/default.beamer`](./src/default.beamer): *beamer template*
+- [`src/macro.tex`](./src/macro.tex): *macro definition*
 - [`conf.yaml`](./conf.yaml): *build options*
