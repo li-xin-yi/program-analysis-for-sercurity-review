@@ -404,3 +404,5 @@ slides/slides.tex
 slides/handout.tex
 
 *.out.ps
+*.tmp.*
+desktop.ini

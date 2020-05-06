@@ -1,5 +1,5 @@
 ---
-title: Static Analysis, Dynamic Analysis and Symbolic Execution Techniques Applied to Security
+title: The Applications of Static/Dynamic Analysis and Symbolic Execution Technologies in Cybersecurity
 subtitle: Introduction \& Case Study
 author: Xinyi Li
 date: \today{}
@@ -14,27 +14,34 @@ navigation: horizontal
 toc-title: Overview
 ---
 
+
 # Background
 
-### Program Analyzer
+## Definition
 
- A program that takes other programs as input and decides whether or not they have a certain **property** \footfullcite{spa}. 
+### Definition: What is a Program Analyzer?
+
+*A program that takes other programs as input and decides whether or not they have a certain **property**.* \footfullcite{spa} 
 
 
-#### \red<2>{Static} Analysis
+#### \red{Static} Analysis
 
-- Analysis of programs \red<2>{without} executing
-- Reason for \red<2>{non-trivial} properties
+- Analysis of programs \red{without} executing
+  <!-- be careful about non-trivial -->
+- Reason for \red{non-trivial} properties
 
-#### \blue<2>{Dynamic} Analysis
+#### \blue{Dynamic} Analysis
 
-- Analysis of programs \blue<2>{by actual} executing
-- Common \blue<2>{testing} methods for a desire property
+- Analysis of programs \blue{by actual} executing
+- Common \blue{testing} methods for a desire property
 
 #### Symbolic Execution
 
-- Analysis of programs by \blue<2>{executing} with \red<2>{\textbf{symbolic}} inputs
+- Analysis of programs by \blue{executing} with \red{\textbf{symbolic}} inputs
 - Determine what inputs cause each part of a program to execute
+
+
+## Limitation
 
 ### No Free Lunch
 
@@ -49,38 +56,35 @@ toc-title: Overview
 All interesting questions about the behavior (*i.e. non-trivial properties* ) of programs (written in \gray{Turing-complete programming languages})  are **undecidable**. 
 
 
+# Motivation
+
+### Motivation: To-do
+
+table
+
+- pro/cons
+- case/ref
 
 # Static Analysis
 
 ## Case 1: Detect PDF Malware
 
-### `SAFE-PDF`\footfullcite{jordan2019unacceptable}: Detect Malicious `Javascript` in PDFs
+### `SAFE-PDF`\footfullcite{jordan2019unacceptable}: Detect Malicious Embedded`Javascript` in PDFs
 
 \framesubtitle{PLAS 2019 / Oracle / University of Sydney}
 
-`JavaScript` programs embedded in PDFs implement some **advanced** features:
+Methodology:
 
-  1. control embedded multimedia objects
-  2. interact with the file system or network
+1. [**Outside In**](https://www.oracle.com/middleware/technologies/webcenter/outside-in-technology.html): commercial `js` code extractor 
+2. **Abstract interpretation**: Main technology
+3. **Semantic whitelist**: Classify if the behavior is accepted
 
-However, it may be utilized for **malicious** intentions.
+Results: Conservative, compared to SOTA PDF Malware detectors
 
+1. Higher *recall*, acceptable *accuracy*
+2. Resilient to evasions attack (`Chameleon` dataset)
+3. Most of *positive* reports are readily interpretable
 
-
-### Code
-
-```python
-while not q.empty():
-    p = q.get()
-    p_list = os.listdir(p)
-    for i in p_list:
-        temp_p = os.path.join(p, i)
-        if os.path.isdir(temp_p):
-            q.put(temp_p)
-            continue
-        # do something
-        print(temp_p)
-```
 
 # Dynamic Analysis
 
