@@ -17,6 +17,11 @@
 ## NDSS
 
 - [ ] [**When Malware is Packin' Heat; Limits of Machine Learning Classifiers Based on Static Analysis Features**](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24310-paper.pdf) (*static analysis*) 2020
+  - [x] [slides](https://www.ndss-symposium.org/wp-content/uploads/24310-slides.pdf) & [video](https://www.youtube.com/watch?v=hMIEKFrRA-s&list=PLfUWWM-POgQtzInqz4v4Fk304JMYqKZvL&index=3&t=0s)
+  - Experimental work, conclusion:
+    - ML-based classifiers on Static Analysis Features can ignore the effect of packer
+    - Static Analysis Features can not be generalized to unseen malware category
+    - dataset & toolchain: https://github.com/ucsb-seclab/packware
 - [ ] [Analyzing Semantic Correctness with Symbolic Execution: A Case Study on PKCS\#1 v1.5 Signature Verification](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04A-4_Chau_paper.pdf) (*symbolic execution*) 2019
 - [ ] [Neuro-Symbolic Execution: Augmenting Symbolic Execution with Neural Constraints](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_11-3_Shiqi_paper.pdf) (*symbolic execution*) 2019
 - [ ] [Securing Real-Time Microcontroller Systems through Customized Memory View Switching](https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_04B-2_Kim_paper.pdf) (*static analysis*) 2018
