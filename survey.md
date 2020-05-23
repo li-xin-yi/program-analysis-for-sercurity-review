@@ -36,6 +36,7 @@
 - [ ] [Charm: Facilitating Dynamic Analysis of Device Drivers of Mobile Systems](https://www.usenix.org/conference/usenixsecurity18/presentation/talebi) (*dynamic analysis*) 2018
 - [ ] [Discovering Flaws in Security-Focused Static Analysis Tools for Android using Systematic Mutation](https://www.usenix.org/conference/usenixsecurity18/presentation/bonett) (*static analysis*) 2018
 - [ ] [Predicting the Resilience of Obfuscated Code Against Symbolic Execution Attacks via Machine Learning](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/banescu) (*symbolic execution*) 2017
+- [ ] [Dead Store Elimination (Still) Considered Harmful](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/yang)
 
 ## RAID
 
