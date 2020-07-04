@@ -1,9 +1,9 @@
-# static_dynamic_analysis_and_symbolic_execute_for_security
+# Reviews for Program Anlysis & Security
  
-Collect Applications of
+Collect applications of
 
 - Static Analysis
 - Dynamic Analysis
 - Symbolic Execution
-  
-On the field involved with security
+
+and other program analysis technique on the field involved with security

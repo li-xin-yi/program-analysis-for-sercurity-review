@@ -1,5 +1,5 @@
 ---
-title: The Applications of Static/Dynamic Analysis and Symbolic Execution Technologies in Cybersecurity
+title: The Applications of Some Programm Analysis Technologies in Security
 subtitle: Introduction \& Case Study
 author: Xinyi Li
 date: \today{}
@@ -12,6 +12,7 @@ biblatex: true
 bibliography: ref.bib
 navigation: horizontal
 toc-title: Overview
+aspectratio: 169
 ---
 
 

@@ -47,6 +47,7 @@
 
 - [ ] [Fuzzing](https://en.wikipedia.org/wiki/Fuzzing)
 - [ ] [Program Analysis Note](https://github.com/GaloisNeko/program-analysis-note)
+- [ ] [Program Analysis Resources](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
 - [x] [Talk: Contemporary Automatic Program Analysis](https://www.youtube.com/watch?v=P0nHId1umvY) and [its slides](https://www.blackhat.com/docs/us-14/materials/us-14-Cohen-Comtemporary-Automatic-Program-Analysis.pdf)
     - A nice glance at *open source* tools based on program analysis to find vulnerabilities
 - [ ] [Bouncer: Securing Software by Blocking Bad Input](https://dl.acm.org/doi/pdf/10.1145/1323293.1294274): *Symbolic Execution \& static analysis*, Old, but important. mentioned in [Using Safety Properties to Generate Vulnerability Patches (SP 19)](https://www.computer.org/csdl/proceedings-article/sp/2019/666000b174/19skgcZPlJe) 2017
