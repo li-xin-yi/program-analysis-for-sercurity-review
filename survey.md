@@ -54,3 +54,4 @@
 - [x] [**Unacceptable Behavior: Robust PDF Malware Detection Using Abstract Interpretation**](https://dl.acm.org/doi/10.1145/3338504.3357341): *abstract interprete/static analysis* Interesting, Accepted in [PLAS 2019](https://www.andrew.cmu.edu/user/pmardzie/plas2019/), which is Co-located with ACM CCS 2019.
    - An interesting application: use abstract interpretation to **conservatively** (*high recall*) find out all **undefined** behaviors (the behaviors apart from *whitelist*) in extracted `javascript` code from PDF files.
 - [ ] [A Recursive Strategy for Symbolic Execution to Find Exploits in Hardware Designs](https://dl.acm.org/doi/abs/10.1145/3219763.3219764): *symbolic execution*, Accepted in FMS 2018 (a workshop hold by PLDI 2018)
+- [ ] [SOK: (State of) The Art of War: Offensive Techniques in Binary Analysis](https://ieeexplore.ieee.org/document/7546500): *dynamic analysis* & *static analysis*, IEEE S \& P 2016, theory for `angr` framework.
