@@ -59,12 +59,16 @@ All interesting questions about the behavior (*i.e. non-trivial properties* ) of
 
 # Motivation
 
-### Motivation: To-do
+### Comparison \footnote{Contemporary Automatic Program Analysis: https://www.youtube.com/watch?v=P0nHId1umvY}
 
-table
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+:::
+::: {.column width="50%"}
+![](fig/cor.pdf)
+:::
+::::::::::::::
 
-- pro/cons
-- case/ref
 
 # Static Analysis
 
